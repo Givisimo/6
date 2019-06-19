@@ -3,8 +3,8 @@
 class Notepad {
   static Priority = {
     LOW: 0,
-      NORMAL: 1,
-      HIGH: 2,
+    NORMAL: 1,
+    HIGH: 2,
   };
   constructor(note) {
     this._notes = note;
@@ -66,7 +66,6 @@ class Notepad {
     }
     return filteredNotes;
   }
-
 }
 
 const initialNotes = [
@@ -169,4 +168,3 @@ console.log(
  */
 notepad.deleteNote('id-2');
 console.log('Заметки после удаления с id -2: ', notepad.notes);
-
